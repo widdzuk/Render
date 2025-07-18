@@ -88,4 +88,4 @@ while True:
         except Exception as e:
             print(f"Error on {symbol}: {e}")
 
-    time.sleep(2 * 60 * 60) wait 2 hours
+    time.sleep(2 * 60 * 60) # wait 2 hours
