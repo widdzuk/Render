@@ -65,6 +65,7 @@ send_message("✅ Bot started with RSI+EMA logic. Scanning every 2 hours...")
 
 while True:
     for cg_id, symbol in COINS.items():
+        send_message(f"🧪 Test loop tick for {symbol}")
         try:
             closes = fetch_candles(cg_id)
             if len(closes) < 22:
